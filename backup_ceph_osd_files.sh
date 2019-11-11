@@ -10,7 +10,7 @@
 export TZ=Europe/Moscow
 DT=$(date +"%Y-%m-%d-%H%M%S")
 LOG=/var/log/backup/confs.log
-ERROR_LOG=/var/log/backup/confs_error.log
+ERROR_LOG=/var/log/backup/files_error.log
 PROJECT="some_project"
 SERVER="server_name"
 FN=files_${DT}.tgz
